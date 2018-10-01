@@ -1,0 +1,21 @@
+ext {
+
+    /* Android Configuration */
+    configuration =
+            [
+                    bundleId                 : "fr.tnducrocq.keepmyrunning",
+                    compileSdkVersion        : 28,
+                    minSdkVersion            : 24,
+                    targetSdkVersion         : 28,
+                    versionCode              : 1,
+                    versionName              : "1.0",
+                    testInstrumentationRunner: "android.support.test.runner.AndroidJUnitRunner"
+
+            ]
+
+    /** Main dependencies **/
+    dependencies = [
+            rxAndroidVersion: '2.0.2',
+            rxJavaVersion   : '2.1.5'
+    ]
+}

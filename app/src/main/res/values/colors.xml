@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorSupernova">#FCAC38</color>
+    <color name="colorSupernovaDark">#FCAC38</color>
+    <color name="colorSupernovaAccent">@color/colorTeal</color>
+
+    <color name="colorPink">#D81B60</color>
+
+    <color name="colorTeal">#008577</color>
+    <color name="colorTealDark">#00574B</color>
+    <color name="colorTealAccent">@color/colorPink</color>
+
+    <color name="colorPrimary">@color/colorTeal</color>
+    <color name="colorPrimaryDark">@color/colorTealDark</color>
+    <color name="colorAccent">@color/colorTealAccent</color>
+
+    <color name="color_gray">#323232</color>
+    <color name="color_red">#F03033</color>
+    <color name="color_green">#40B348</color>
+    <color name="color_blue">#007dff</color>
+    <color name="color_blue_alpha">#007dff00</color>
+    <color name="color_yellow">#FFBD02</color>
+    <color name="color_pink">#FF00FF</color>
+
+
+    <color name="bg_row_background">#fa315b</color>
+    <color name="item_name">#535353</color>
+    <color name="description">#a9a9a9</color>
+</resources>

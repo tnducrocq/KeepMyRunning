@@ -1,0 +1,89 @@
+<resources>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="LaunchTheme" parent="AppTheme">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="ThemeSupernova" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorSupernova</item>
+        <item name="colorPrimaryDark">@color/colorSupernovaDark</item>
+        <item name="colorAccent">@color/colorSupernovaAccent</item>
+    </style>
+
+    <style name="TextAppearance" parent="@android:style/TextAppearance.Material.Title">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <style name="TextAppearance.Running.Title" parent="@style/TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">36sp</item>
+    </style>
+
+    <style name="TextAppearance.Running.SubTitle" parent="@style/TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <style name="TextAppearance.Running.Timer" parent="@style/TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">52sp</item>
+    </style>
+
+    <style name="TextAppearance.Running.Button" parent="@style/TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="stfContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="stfProgress">
+        <item name="android:layout_width">@dimen/stfProgressSize</item>
+        <item name="android:layout_height">@dimen/stfProgressSize</item>
+    </style>
+
+    <style name="stfImage">
+        <item name="android:layout_width">@dimen/stfImageSize</item>
+        <item name="android:layout_height">@dimen/stfImageSize</item>
+        <item name="android:tint">@color/colorTeal</item>
+    </style>
+
+    <style name="stfMessage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">36sp</item>
+    </style>
+
+    <style name="stfButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">@color/colorTeal</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>

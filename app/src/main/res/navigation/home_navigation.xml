@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="fr.tnducrocq.keepmyrunning.ui.main.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/home_fragment">
+
+        <action
+            android:id="@+id/add_running_action"
+            app:destination="@id/navigation_new_running"/>
+
+    </fragment>
+
+    <!--TODO-->
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="fr.tnducrocq.keepmyrunning.ui.main.DashboardFragment"
+        tools:layout="@layout/dashboard">
+
+        <argument
+            android:name="step"
+            android:defaultValue="1"
+            app:argType="integer"/>
+
+    </fragment>
+
+    <activity
+        android:id="@+id/navigation_new_running"
+        android:name="fr.tnducrocq.keepmyrunning.ui.running.RunningActivity"
+        android:label="running_activity"
+        tools:layout="@layout/running_activity"/>
+
+</navigation>

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Keep My Running</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="action_sign_in">Sign in or register</string>
+
+    <string name="title_new_running">Ma course</string>
+    <string name="label_start_new_running">Commencer</string>
+    <string name="label_stop_new_running">Arrêter</string>
+    <string name="label_action_new_running">Courez!</string>
+
+    <string name="label_loading_running">Chargement des données</string>
+
+    <string name="title_distance">Kilomètres</string>
+    <string name="title_speed">min/km</string>
+    <string name="title_time">Temps</string>
+
+    <string name="delete">SUPPRIMER</string>
+
+    <string name="title_all_distance">Distance totale:</string>
+    <string name="title_all_time">Temps total:</string>
+
+    <string name="title_most_longer">Course la plus longue:</string>
+    <string name="title_most_speeder">Course la plus rapide:</string>
+
+    <!-- Strings related to Keyboard -->
+    <string name="button1_large_text" translatable="false">1</string>
+    <string name="button2_large_text" translatable="false">2</string>
+    <string name="button3_large_text" translatable="false">3</string>
+    <string name="button4_large_text" translatable="false">4</string>
+    <string name="button5_large_text" translatable="false">5</string>
+    <string name="button6_large_text" translatable="false">6</string>
+    <string name="button7_large_text" translatable="false">7</string>
+    <string name="button8_large_text" translatable="false">8</string>
+    <string name="button9_large_text" translatable="false">9</string>
+    <string name="button11_large_text" translatable="false">0</string>
+
+    <!-- Stateful layout-->
+    <string name="stfErrorMessage">An error occurred please try again later</string>
+    <string name="stfOfflineMessage">Please check your connection</string>
+    <string name="stfLocationOffMessage">Please enable location services</string>
+    <string name="stfEmptyMessage">There are no items</string>
+    <string name="stfLoadingMessage">Loading..</string>
+    <string name="stfButtonText">Retry</string>
+</resources>

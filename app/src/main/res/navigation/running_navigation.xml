@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/running_navigation"
+    app:startDestination="@id/navigation_new_running">
+
+    <fragment
+        android:id="@+id/navigation_new_running"
+        android:name="fr.tnducrocq.keepmyrunning.ui.running.TimeFragment"
+        android:label="@string/title_new_running"
+        tools:layout="@layout/time_fragment">
+
+        <action
+            android:id="@+id/action_navigation_new_running_to_distanceFragment"
+            app:destination="@id/distanceFragment"/>
+
+    </fragment>
+    <fragment
+        android:id="@+id/distanceFragment"
+        android:name="fr.tnducrocq.keepmyrunning.ui.running.DistanceFragment"
+        android:label="distance_fragment"
+        tools:layout="@layout/distance_fragment">
+
+        <action
+            android:id="@+id/action_distanceFragment_to_moodFragment"
+            app:destination="@id/moodFragment"/>
+
+        <argument
+            android:name="running"
+            app:argType="fr.tnducrocq.keepmyrunning.model.Running"
+            app:nullable="true"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/moodFragment"
+        android:name="fr.tnducrocq.keepmyrunning.ui.running.MoodFragment"
+        android:label="MoodFragment">
+
+        <argument
+            android:name="running"
+            app:argType="fr.tnducrocq.keepmyrunning.model.Running"
+            app:nullable="true"/>
+
+    </fragment>
+
+</navigation>
